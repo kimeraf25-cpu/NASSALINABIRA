@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Tyre services</title>
+  <desc id="desc">A worker changing a tyre with the text Tyre Services Safety on Every Journey.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d5d8d7"/>
+      <stop offset="100%" stop-color="#8a8d8f"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5d6265"/>
+      <stop offset="100%" stop-color="#2e3235"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3c9d54"/>
+      <stop offset="100%" stop-color="#0d7d3b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg)"/>
+
+  <g opacity="0.75">
+    <ellipse cx="170" cy="220" rx="220" ry="160" fill="#d9dfe0"/>
+    <ellipse cx="930" cy="160" rx="250" ry="140" fill="#d9dfe0"/>
+  </g>
+
+  <g>
+    <rect x="0" y="530" width="1200" height="170" fill="url(#road)"/>
+    <rect x="0" y="560" width="1200" height="8" fill="#a0a5a4" opacity="0.7"/>
+    <path d="M0 610 L1200 610" stroke="#b9bdba" stroke-width="4" opacity="0.7"/>
+  </g>
+
+  <g>
+    <circle cx="370" cy="360" r="205" fill="#1a1d1f"/>
+    <circle cx="370" cy="360" r="150" fill="#d8dfe2"/>
+    <circle cx="370" cy="360" r="110" fill="#2d3437"/>
+    <circle cx="370" cy="360" r="52" fill="#dfe9ef"/>
+    <circle cx="370" cy="360" r="18" fill="#2d3437"/>
+    <g stroke="#dfe9ef" stroke-width="10" stroke-linecap="round">
+      <line x1="370" y1="210" x2="370" y2="270"/>
+      <line x1="370" y1="450" x2="370" y2="510"/>
+      <line x1="220" y1="360" x2="280" y2="360"/>
+      <line x1="460" y1="360" x2="520" y2="360"/>
+      <line x1="270" y1="250" x2="312" y2="292"/>
+      <line x1="470" y1="430" x2="512" y2="472"/>
+      <line x1="270" y1="470" x2="312" y2="428"/>
+      <line x1="470" y1="270" x2="512" y2="228"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M630 350 L730 360 L840 450 L820 520 L730 530 L630 500 Z" fill="#2d9d4f"/>
+    <path d="M585 300 L650 265 L720 295 L650 350 Z" fill="#153f2d"/>
+    <path d="M650 265 L695 236 L760 280 L720 295 Z" fill="#1a7a42"/>
+    <circle cx="632" cy="310" r="18" fill="#f3d746"/>
+    <circle cx="696" cy="312" r="18" fill="#f3d746"/>
+  </g>
+
+  <g>
+    <path d="M720 350 L840 325 L990 365 L1005 520 L900 585 L735 560 Z" fill="url(#green)"/>
+    <path d="M760 300 L865 285 L980 325 L930 355 L770 350 Z" fill="#0a5b2d"/>
+    <path d="M880 285 L975 318 L1000 350 L920 350 Z" fill="#1c7f45"/>
+    <path d="M742 556 L888 532 L943 590 L780 620 Z" fill="#ace383" opacity="0.7"/>
+  </g>
+
+  <g>
+    <path d="M860 438 L910 410 L960 438 L940 500 L868 500 Z" fill="#171b1d"/>
+    <circle cx="910" cy="415" r="44" fill="#171b1d"/>
+    <path d="M922 382 L984 350 L1035 480 L962 515 Z" fill="#2d9d4f"/>
+    <path d="M1008 470 L1076 542 L1014 588 L956 540 Z" fill="#0d7d3b"/>
+    <path d="M888 505 L930 530 L908 565 L860 560 Z" fill="#2d9d4f"/>
+  </g>
+
+  <g>
+    <path d="M990 428 C1035 395, 1088 405, 1101 444 C1115 487, 1098 530, 1050 546 C1002 563, 955 530, 958 485 C960 463, 970 451, 990 428 Z" fill="#1d2a2a" opacity="0.95"/>
+    <path d="M1045 395 L1099 355 L1148 434 L1095 465 Z" fill="#2d9d4f"/>
+    <path d="M1008 465 L1058 525 L1011 568 L963 510 Z" fill="#1d7a46"/>
+    <path d="M1072 540 L1137 553 L1110 635 L1042 620 Z" fill="#0b5b2d"/>
+    <circle cx="1055" cy="443" r="12" fill="#d3d6d8"/>
+  </g>
+
+  <g>
+    <path d="M540 540 C570 520, 603 528, 630 557 L665 610 L540 610 Z" fill="#0d4b2d"/>
+    <path d="M540 540 L542 610 L510 610 L490 552 Z" fill="#0f5d33"/>
+    <path d="M626 440 L686 460 L670 535 L605 534 Z" fill="#2d9d4f"/>
+    <path d="M650 454 L705 468 L700 532 L646 530 Z" fill="#153d2c"/>
+  </g>
+
+  <g>
+    <path d="M145 380 L220 290 L272 360 L242 430 Z" fill="#0a6942"/>
+    <path d="M166 382 L208 327 L243 382 L214 428 Z" fill="#2ea353"/>
+    <path d="M244 371 L302 350 L329 384 L300 443 Z" fill="#22a34b"/>
+    <circle cx="204" cy="366" r="15" fill="#f5d35c"/>
+  </g>
+
+  <g>
+    <rect x="185" y="70" width="385" height="86" rx="20" fill="#f5f3ee" opacity="0.95"/>
+    <circle cx="237" cy="112" r="34" fill="#0c7d3f"/>
+    <circle cx="237" cy="112" r="18" fill="#dfe8a8"/>
+    <text x="285" y="122" font-size="36" font-family="Arial, sans-serif" font-weight="700" fill="#1d3d2d">Tyre Services</text>
+  </g>
+
+  <g>
+    <text x="188" y="205" font-size="30" font-family="Arial, sans-serif" font-weight="700" fill="#203924">Safety on Every Journey</text>
+  </g>
+</svg>
