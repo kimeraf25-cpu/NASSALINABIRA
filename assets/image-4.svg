@@ -1,48 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Fuel station image">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">FuelPoint petrol station</title>
+  <desc id="desc">A modern green petrol station with canopy and convenience shop at dusk.</desc>
   <defs>
-    <linearGradient id="stationBg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#3d5d9d"/>
-      <stop offset="100%" stop-color="#1e2c4f"/>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d2365"/>
+      <stop offset="50%" stop-color="#314a93"/>
+      <stop offset="100%" stop-color="#243e6d"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e7e4df"/>
+      <stop offset="100%" stop-color="#d1d3cc"/>
     </linearGradient>
   </defs>
-  <rect width="1600" height="900" fill="url(#stationBg)"/>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <g opacity="0.36">
+    <circle cx="100" cy="100" r="180" fill="#a3bfe5"/>
+    <circle cx="1450" cy="180" r="220" fill="#6789d1"/>
+    <circle cx="880" cy="80" r="240" fill="#6d8bd0"/>
+  </g>
+  <rect x="0" y="740" width="1600" height="160" fill="#1b1f26" opacity="0.75"/>
   <g>
-    <path d="M200 240 L1300 240 L1460 420 L1200 420 L1100 700 L540 700 L420 420 L160 420 Z" fill="#177449"/>
-    <path d="M260 260 H1240 L1380 400 H260 Z" fill="#1a8a55" opacity="0.9"/>
-    <path d="M420 400 H1240 L1160 700 H500 Z" fill="#e4e4e5" opacity="0.8"/>
-    <path d="M520 420 H763 L710 700 H570 Z" fill="#f7f7f7"/>
-    <path d="M840 420 H1090 L1040 700 H890 Z" fill="#f7f7f7"/>
-    <g fill="#dfe4e9">
-      <rect x="665" y="250" width="60" height="150" rx="10"/>
-      <rect x="945" y="250" width="60" height="150" rx="10"/>
-    </g>
-    <g fill="#0a3d2a">
-      <rect x="610" y="420" width="150" height="260" rx="8"/>
-      <rect x="890" y="420" width="150" height="260" rx="8"/>
-      <rect x="720" y="420" width="130" height="260" rx="8"/>
-      <rect x="1030" y="420" width="130" height="260" rx="8"/>
-    </g>
-    <g fill="#e9f8d5">
-      <rect x="655" y="460" width="60" height="150" rx="8"/>
-      <rect x="935" y="460" width="60" height="150" rx="8"/>
-    </g>
-    <g fill="#d8eb56">
-      <rect x="150" y="230" width="220" height="22" rx="11"/>
-      <rect x="1030" y="220" width="300" height="22" rx="11"/>
-    </g>
+    <rect x="120" y="170" width="1360" height="190" rx="18" fill="#0f713a"/>
+    <rect x="160" y="210" width="1280" height="100" rx="12" fill="#0b5c30"/>
+    <path d="M180 240 L290 215 L400 224 L510 200 L620 222 L730 208 L840 225 L952 205 L1065 225 L1175 212 L1280 230 L1338 239" stroke="#f4df7a" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <text x="390" y="275" font-size="110" font-weight="700" font-family="Arial, sans-serif" fill="#f2f5f8" letter-spacing="-3">FuelPoint</text>
   </g>
   <g>
-    <circle cx="605" cy="760" r="34" fill="#dfe5ef"/>
-    <circle cx="800" cy="760" r="34" fill="#dfe5ef"/>
-    <circle cx="990" cy="760" r="34" fill="#dfe5ef"/>
+    <rect x="250" y="330" width="1040" height="340" fill="url(#roof)"/>
+    <rect x="300" y="520" width="260" height="240" rx="18" fill="#1b432d"/>
+    <rect x="620" y="500" width="260" height="260" rx="18" fill="#1b432d"/>
+    <rect x="940" y="520" width="260" height="240" rx="18" fill="#1b432d"/>
+    <rect x="370" y="575" width="120" height="175" rx="10" fill="#f1f0ef"/>
+    <rect x="700" y="575" width="120" height="175" rx="10" fill="#f1f0ef"/>
+    <rect x="1015" y="575" width="120" height="175" rx="10" fill="#f1f0ef"/>
+    <circle cx="430" cy="645" r="52" fill="#f7d45e"/>
+    <circle cx="760" cy="645" r="52" fill="#f7d45e"/>
+    <circle cx="1075" cy="645" r="52" fill="#f7d45e"/>
+    <g fill="#1a7a42">
+      <rect x="335" y="430" width="180" height="120" rx="10"/>
+      <rect x="660" y="430" width="180" height="120" rx="10"/>
+      <rect x="980" y="430" width="180" height="120" rx="10"/>
+    </g>
+    <g fill="#d4d8d2">
+      <rect x="350" y="445" width="150" height="14" rx="4"/>
+      <rect x="675" y="445" width="150" height="14" rx="4"/>
+      <rect x="995" y="445" width="150" height="14" rx="4"/>
+    </g>
+    <g fill="#f0f3ef">
+      <rect x="385" y="605" width="85" height="78" rx="12"/>
+      <rect x="715" y="605" width="85" height="78" rx="12"/>
+      <rect x="1035" y="605" width="85" height="78" rx="12"/>
+    </g>
+    <g fill="#f1da70">
+      <path d="M270 595 C310 577 330 615 326 648 L280 648 L270 595Z"/>
+      <path d="M1345 595 C1385 577 1405 615 1401 648 L1355 648 L1345 595Z"/>
+    </g>
+  </g>
+  <g fill="#ffffff" opacity="0.95">
+    <circle cx="250" cy="385" r="18"/>
+    <circle cx="330" cy="370" r="12"/>
+    <circle cx="390" cy="340" r="16"/>
+    <circle cx="1210" cy="350" r="14"/>
+    <circle cx="1290" cy="380" r="18"/>
+    <circle cx="1365" cy="360" r="12"/>
   </g>
   <g>
-    <rect x="280" y="120" width="800" height="95" rx="30" fill="#117a4a"/>
-    <text x="680" y="181" font-size="74" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#ffffff">FuelPoint</text>
+    <rect x="1000" y="300" width="240" height="180" rx="14" fill="#1a6d3b"/>
+    <rect x="1038" y="358" width="50" height="100" rx="8" fill="#f0efed"/>
+    <rect x="1108" y="358" width="50" height="100" rx="8" fill="#f0efed"/>
+    <rect x="1178" y="358" width="50" height="100" rx="8" fill="#f0efed"/>
+    <rect x="1060" y="325" width="150" height="22" rx="6" fill="#f3d25a"/>
+    <text x="1034" y="432" font-size="32" font-family="Arial, sans-serif" fill="#1b432d" font-weight="700">Shop</text>
   </g>
   <g>
-    <circle cx="390" cy="790" r="18" fill="#d8eb56"/>
-    <circle cx="450" cy="790" r="18" fill="#d8eb56" opacity="0.6"/>
-    <circle cx="510" cy="790" r="18" fill="#d8eb56" opacity="0.4"/>
+    <circle cx="235" cy="825" r="18" fill="#f4dc6a"/>
+    <circle cx="300" cy="825" r="18" fill="#ffffff" opacity="0.7"/>
+    <circle cx="365" cy="825" r="18" fill="#ffffff" opacity="0.7"/>
   </g>
 </svg>

@@ -1,41 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Convenience shop image">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Convenience shop</title>
+  <desc id="desc">Colorful shelves of snacks and drinks in a convenience store.</desc>
   <defs>
-    <linearGradient id="shopBg" x1="0" x2="1">
-      <stop offset="0%" stop-color="#f3d4a8"/>
-      <stop offset="100%" stop-color="#cc6534"/>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f2d7b0"/>
+      <stop offset="100%" stop-color="#d8af7d"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="600" fill="url(#shopBg)"/>
-  <rect y="390" width="1200" height="210" fill="#f6f1de" opacity="0.85"/>
-  <g>
-    <rect x="60" y="120" width="1080" height="260" rx="8" fill="#e8c7a0"/>
-    <g fill="#d77e3d">
-      <rect x="120" y="160" width="150" height="170" rx="10"/>
-      <rect x="295" y="160" width="150" height="170" rx="10"/>
-      <rect x="470" y="160" width="150" height="170" rx="10"/>
-      <rect x="645" y="160" width="150" height="170" rx="10"/>
-      <rect x="820" y="160" width="150" height="170" rx="10"/>
-      <rect x="995" y="160" width="110" height="170" rx="10"/>
-    </g>
-    <g fill="#f3efe4">
-      <rect x="140" y="190" width="110" height="26" rx="6"/>
-      <rect x="315" y="190" width="110" height="26" rx="6"/>
-      <rect x="490" y="190" width="110" height="26" rx="6"/>
-      <rect x="665" y="190" width="110" height="26" rx="6"/>
-      <rect x="840" y="190" width="110" height="26" rx="6"/>
-      <rect x="1015" y="190" width="74" height="26" rx="6"/>
-    </g>
-    <g fill="#7a9e34">
-      <rect x="160" y="230" width="70" height="80" rx="6"/>
-      <rect x="335" y="230" width="70" height="80" rx="6"/>
-      <rect x="510" y="230" width="70" height="80" rx="6"/>
-      <rect x="685" y="230" width="70" height="80" rx="6"/>
-      <rect x="860" y="230" width="70" height="80" rx="6"/>
-      <rect x="1025" y="230" width="50" height="80" rx="6"/>
-    </g>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <rect x="40" y="85" width="1120" height="560" rx="20" fill="#f5efe3"/>
+  <rect x="110" y="112" width="980" height="145" rx="12" fill="#b87736"/>
+  <g fill="#ffb13d">
+    <rect x="150" y="150" width="80" height="80" rx="8"/>
+    <rect x="250" y="150" width="80" height="80" rx="8"/>
+    <rect x="350" y="150" width="80" height="80" rx="8"/>
+    <rect x="450" y="150" width="80" height="80" rx="8"/>
+    <rect x="550" y="150" width="80" height="80" rx="8"/>
+    <rect x="650" y="150" width="80" height="80" rx="8"/>
+    <rect x="750" y="150" width="80" height="80" rx="8"/>
+    <rect x="850" y="150" width="80" height="80" rx="8"/>
+    <rect x="950" y="150" width="80" height="80" rx="8"/>
   </g>
   <g>
-    <rect x="900" y="60" width="240" height="50" rx="24" fill="#fff4dd"/>
-    <text x="1020" y="95" font-size="28" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#5f2c1c">Shop</text>
+    <rect x="120" y="270" width="150" height="270" rx="14" fill="#c2292a"/>
+    <rect x="290" y="270" width="150" height="270" rx="14" fill="#2d7f42"/>
+    <rect x="460" y="270" width="150" height="270" rx="14" fill="#d58528"/>
+    <rect x="630" y="270" width="150" height="270" rx="14" fill="#6367d8"/>
+    <rect x="800" y="270" width="150" height="270" rx="14" fill="#cdb837"/>
+    <rect x="970" y="270" width="150" height="270" rx="14" fill="#eb564f"/>
+  </g>
+  <g fill="#f5f3ed">
+    <rect x="145" y="315" width="100" height="20" rx="5"/>
+    <rect x="145" y="355" width="100" height="20" rx="5"/>
+    <rect x="145" y="395" width="100" height="20" rx="5"/>
+    <rect x="315" y="315" width="100" height="20" rx="5"/>
+    <rect x="315" y="355" width="100" height="20" rx="5"/>
+    <rect x="315" y="395" width="100" height="20" rx="5"/>
+    <rect x="485" y="315" width="100" height="20" rx="5"/>
+    <rect x="485" y="355" width="100" height="20" rx="5"/>
+    <rect x="485" y="395" width="100" height="20" rx="5"/>
+    <rect x="655" y="315" width="100" height="20" rx="5"/>
+    <rect x="655" y="355" width="100" height="20" rx="5"/>
+    <rect x="655" y="395" width="100" height="20" rx="5"/>
+    <rect x="825" y="315" width="100" height="20" rx="5"/>
+    <rect x="825" y="355" width="100" height="20" rx="5"/>
+    <rect x="825" y="395" width="100" height="20" rx="5"/>
+    <rect x="995" y="315" width="100" height="20" rx="5"/>
+    <rect x="995" y="355" width="100" height="20" rx="5"/>
+    <rect x="995" y="395" width="100" height="20" rx="5"/>
+  </g>
+  <g fill="#f3d44e">
+    <rect x="148" y="430" width="95" height="75" rx="8"/>
+    <rect x="318" y="430" width="95" height="75" rx="8"/>
+    <rect x="488" y="430" width="95" height="75" rx="8"/>
+    <rect x="658" y="430" width="95" height="75" rx="8"/>
+    <rect x="828" y="430" width="95" height="75" rx="8"/>
+    <rect x="998" y="430" width="95" height="75" rx="8"/>
+  </g>
+  <g fill="#f6f6f6" opacity="0.8">
+    <rect x="760" y="110" width="220" height="32" rx="8"/>
+    <rect x="775" y="120" width="60" height="12" rx="6" fill="#5d7d28"/>
+    <rect x="842" y="120" width="70" height="12" rx="6" fill="#c63030"/>
+    <rect x="920" y="120" width="35" height="12" rx="6" fill="#d69330"/>
   </g>
 </svg>

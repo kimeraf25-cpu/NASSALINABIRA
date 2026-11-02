@@ -1,32 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Car wash service image">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Vehicle wash service</title>
+  <desc id="desc">A man washing a car in a green uniform outdoors.</desc>
   <defs>
-    <linearGradient id="bg1" x1="0" x2="1">
-      <stop offset="0%" stop-color="#9cc3a5"/>
-      <stop offset="100%" stop-color="#2f5f4d"/>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#9cc57d"/>
+      <stop offset="100%" stop-color="#4a7e3d"/>
+    </linearGradient>
+    <linearGradient id="car" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1f2b32"/>
+      <stop offset="100%" stop-color="#0d1319"/>
     </linearGradient>
   </defs>
-  <rect width="1200" height="600" fill="url(#bg1)"/>
-  <rect y="360" width="1200" height="240" fill="#1c2d2d" opacity="0.7"/>
-  <g>
-    <path d="M120 470 L360 470 L410 430 L760 430 L820 470 L1080 470 L980 290 L350 290 L120 470 Z" fill="#1d2b2f"/>
-    <path d="M220 430 L350 300 L760 300 L880 430" fill="none" stroke="#6b8b7b" stroke-width="8"/>
-    <circle cx="330" cy="470" r="90" fill="#2c3638"/>
-    <circle cx="330" cy="470" r="48" fill="#dfe7ea"/>
-    <circle cx="820" cy="470" r="90" fill="#2c3638"/>
-    <circle cx="820" cy="470" r="48" fill="#dfe7ea"/>
-    <path d="M760 320 L890 320 L940 470 L800 470 Z" fill="#2e3d3a" opacity="0.8"/>
-    <path d="M542 313 L650 313 L688 470 L604 470 Z" fill="#576d68" opacity="0.8"/>
-    <g fill="#e7f3ef">
-      <rect x="560" y="250" width="80" height="80" rx="12"/>
-      <rect x="660" y="250" width="80" height="80" rx="12"/>
-    </g>
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="1050" cy="110" r="100" fill="#bfe697" opacity="0.8"/>
+  <g opacity="0.9">
+    <ellipse cx="150" cy="620" rx="220" ry="85" fill="#4e8d3f"/>
+    <ellipse cx="450" cy="640" rx="240" ry="90" fill="#3b7b39"/>
+    <ellipse cx="900" cy="630" rx="270" ry="85" fill="#4d8a42"/>
+    <ellipse cx="1080" cy="650" rx="180" ry="70" fill="#345a2d"/>
   </g>
-  <g stroke="#fff" stroke-width="7" stroke-linecap="round">
-    <path d="M460 260 C520 230, 610 220, 680 240" fill="none"/>
-    <path d="M478 300 C532 280, 610 286, 692 310" fill="none"/>
+  <g opacity="0.9">
+    <rect x="0" y="520" width="1200" height="180" fill="#1d4d2f"/>
   </g>
   <g>
-    <rect x="100" y="140" width="220" height="40" rx="20" fill="#d8eb56"/>
-    <text x="210" y="167" font-size="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#153b2d">Car wash</text>
+    <rect x="240" y="330" width="795" height="210" rx="24" fill="url(#car)"/>
+    <path d="M350 330 L440 250 L650 250 L740 330 Z" fill="#1f2a31"/>
+    <path d="M440 250 L472 228 H662 L700 250 Z" fill="#2d3840"/>
+    <circle cx="415" cy="540" r="78" fill="#111"/>
+    <circle cx="415" cy="540" r="42" fill="#c9d1d7"/>
+    <circle cx="845" cy="540" r="78" fill="#111"/>
+    <circle cx="845" cy="540" r="42" fill="#c9d1d7"/>
+    <path d="M280 410 Q400 355 540 390" stroke="#d7dde1" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <path d="M765 390 Q900 325 1010 410" stroke="#d7dde1" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.8"/>
+  </g>
+  <g>
+    <circle cx="620" cy="190" r="70" fill="#67bf77"/>
+    <path d="M575 140 L600 205 L620 145 L650 210 L680 140" stroke="#0f7040" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="563" cy="165" r="12" fill="#0f7040"/>
+    <circle cx="690" cy="160" r="12" fill="#0f7040"/>
+  </g>
+  <g>
+    <rect x="654" y="285" width="120" height="120" rx="12" fill="#1d6d3c"/>
+    <rect x="680" y="230" width="68" height="55" rx="10" fill="#2d9a4a"/>
+    <circle cx="725" cy="314" r="24" fill="#b5d46a"/>
+    <path d="M712 314 L722 325 L740 299" stroke="#2a4f2d" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M605 350 C635 335, 638 400, 615 420" stroke="#b9d5d8" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M606 420 L540 430" stroke="#b9d5d8" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M765 355 C820 330, 842 400, 810 430" stroke="#b9d5d8" stroke-width="18" fill="none" stroke-linecap="round"/>
+    <path d="M555 372 L495 418" stroke="#b9d5d8" stroke-width="18" fill="none" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="158" y="252" width="120" height="150" rx="18" fill="#0d6b3d"/>
+    <path d="M178 278 L240 278" stroke="#d7f05e" stroke-width="10"/>
+    <path d="M178 320 L240 320" stroke="#d7f05e" stroke-width="10"/>
+    <path d="M178 362 L240 362" stroke="#d7f05e" stroke-width="10"/>
+    <circle cx="178" cy="285" r="14" fill="#e2f085"/>
+    <circle cx="178" cy="330" r="14" fill="#e2f085"/>
+    <circle cx="178" cy="375" r="14" fill="#e2f085"/>
+    <path d="M195 247 Q210 205 232 247" fill="#0d5131"/>
+  </g>
+  <g fill="#dfe8ea" opacity="0.8">
+    <circle cx="930" cy="272" r="16"/>
+    <circle cx="968" cy="290" r="12"/>
+    <circle cx="1005" cy="286" r="18"/>
+    <circle cx="1042" cy="278" r="14"/>
   </g>
 </svg>
