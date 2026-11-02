@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-label="Car wash service image">
+  <defs>
+    <linearGradient id="bg1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#9cc3a5"/>
+      <stop offset="100%" stop-color="#2f5f4d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg1)"/>
+  <rect y="360" width="1200" height="240" fill="#1c2d2d" opacity="0.7"/>
+  <g>
+    <path d="M120 470 L360 470 L410 430 L760 430 L820 470 L1080 470 L980 290 L350 290 L120 470 Z" fill="#1d2b2f"/>
+    <path d="M220 430 L350 300 L760 300 L880 430" fill="none" stroke="#6b8b7b" stroke-width="8"/>
+    <circle cx="330" cy="470" r="90" fill="#2c3638"/>
+    <circle cx="330" cy="470" r="48" fill="#dfe7ea"/>
+    <circle cx="820" cy="470" r="90" fill="#2c3638"/>
+    <circle cx="820" cy="470" r="48" fill="#dfe7ea"/>
+    <path d="M760 320 L890 320 L940 470 L800 470 Z" fill="#2e3d3a" opacity="0.8"/>
+    <path d="M542 313 L650 313 L688 470 L604 470 Z" fill="#576d68" opacity="0.8"/>
+    <g fill="#e7f3ef">
+      <rect x="560" y="250" width="80" height="80" rx="12"/>
+      <rect x="660" y="250" width="80" height="80" rx="12"/>
+    </g>
+  </g>
+  <g stroke="#fff" stroke-width="7" stroke-linecap="round">
+    <path d="M460 260 C520 230, 610 220, 680 240" fill="none"/>
+    <path d="M478 300 C532 280, 610 286, 692 310" fill="none"/>
+  </g>
+  <g>
+    <rect x="100" y="140" width="220" height="40" rx="20" fill="#d8eb56"/>
+    <text x="210" y="167" font-size="26" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#153b2d">Car wash</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Fuel station image">
+  <defs>
+    <linearGradient id="stationBg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3d5d9d"/>
+      <stop offset="100%" stop-color="#1e2c4f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#stationBg)"/>
+  <g>
+    <path d="M200 240 L1300 240 L1460 420 L1200 420 L1100 700 L540 700 L420 420 L160 420 Z" fill="#177449"/>
+    <path d="M260 260 H1240 L1380 400 H260 Z" fill="#1a8a55" opacity="0.9"/>
+    <path d="M420 400 H1240 L1160 700 H500 Z" fill="#e4e4e5" opacity="0.8"/>
+    <path d="M520 420 H763 L710 700 H570 Z" fill="#f7f7f7"/>
+    <path d="M840 420 H1090 L1040 700 H890 Z" fill="#f7f7f7"/>
+    <g fill="#dfe4e9">
+      <rect x="665" y="250" width="60" height="150" rx="10"/>
+      <rect x="945" y="250" width="60" height="150" rx="10"/>
+    </g>
+    <g fill="#0a3d2a">
+      <rect x="610" y="420" width="150" height="260" rx="8"/>
+      <rect x="890" y="420" width="150" height="260" rx="8"/>
+      <rect x="720" y="420" width="130" height="260" rx="8"/>
+      <rect x="1030" y="420" width="130" height="260" rx="8"/>
+    </g>
+    <g fill="#e9f8d5">
+      <rect x="655" y="460" width="60" height="150" rx="8"/>
+      <rect x="935" y="460" width="60" height="150" rx="8"/>
+    </g>
+    <g fill="#d8eb56">
+      <rect x="150" y="230" width="220" height="22" rx="11"/>
+      <rect x="1030" y="220" width="300" height="22" rx="11"/>
+    </g>
+  </g>
+  <g>
+    <circle cx="605" cy="760" r="34" fill="#dfe5ef"/>
+    <circle cx="800" cy="760" r="34" fill="#dfe5ef"/>
+    <circle cx="990" cy="760" r="34" fill="#dfe5ef"/>
+  </g>
+  <g>
+    <rect x="280" y="120" width="800" height="95" rx="30" fill="#117a4a"/>
+    <text x="680" y="181" font-size="74" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#ffffff">FuelPoint</text>
+  </g>
+  <g>
+    <circle cx="390" cy="790" r="18" fill="#d8eb56"/>
+    <circle cx="450" cy="790" r="18" fill="#d8eb56" opacity="0.6"/>
+    <circle cx="510" cy="790" r="18" fill="#d8eb56" opacity="0.4"/>
+  </g>
+</svg>
